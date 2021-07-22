@@ -52,14 +52,19 @@ p {
 ul,
 ol,
 li {
-   margin: 0;
+   margin-top: 0;
+   margin-bottom: 0;
    padding: 0;
 }
 img {
    display: block;
 }
 
-
+.section {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+/* взял*/
    
 .header {
    border-bottom: 1px solid var(--border-color);

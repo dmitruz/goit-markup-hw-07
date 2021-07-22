@@ -1,1 +1,11 @@
-@import "./utils/vareables";
+@import "./utils/variables";
+@import "./base/base";
+@import "./base/container";
+@import "./utils/visually-hidden";
+//COMPONENTS
+@import "./components/modal-btn";
+@import "./components/logo-set";
+@import "./components/description";
+@import "./components/footer-icon-list";
+@import "./components/backdrop";
+@import "./components/form";
