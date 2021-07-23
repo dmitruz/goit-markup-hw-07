@@ -11,44 +11,8 @@
     transition: visibility 250ms;
     opacity: 250ms;
  }
- 
- .modal {
-    position: absolute;
-     top: 50%;
-     left: 50%;
-     min-width: 528px;
-     min-height: 581px;
-     background-color: var(--address-text-color);
-     transform: translate(-50%, -50%) scale(1);
-     padding: 40px;
- }
-  
- .close-btn {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    background-color: transparent;
-    justify-content: center;
-     align-items: center;
-   
- }
  .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
- }
- 
-.close {
-  
-    fill: var(--title-color);  
-    width: 11px;
-    height: 11px;
- }
- .close-btn:hover>.close, .close-btn:hover:focus>.close {
-    fill: var(--color-link-title);
  }
