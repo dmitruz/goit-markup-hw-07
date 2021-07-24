@@ -346,7 +346,7 @@ text-decoration: none;
    font-size: 14px;
    text-align: left;
 }
-//*What we do section*//
+/*What we do section*/
 
 .middle-section {
    padding-bottom: 94px;
@@ -761,7 +761,7 @@ text-decoration: none;
    cursor: pointer;
 }
 
-//*flex-list cardset container*//
+/*flex-list cardset container*/
 
 .poster-section {
    padding-top: 94px;
@@ -804,14 +804,14 @@ text-decoration: none;
     margin-bottom: 4px;
     color: var(--title-color);
     margin-top: 0;
-    margin-bottom; 0;
+    margin-bottom: 0;
     padding-left: 0;
 }
 
 .overlay {
    position: absolute;
    top: 0;
-   left; 0;
+   left: 0;
    height: 100%;
    width: 100%;
    overflow: auto;
