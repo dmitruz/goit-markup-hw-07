@@ -554,7 +554,8 @@ text-decoration: none;
 
 /*footer*/
 
-.footer {
+
+ .footer {
  background: var(--primary-background);
  padding-top: 60px;
  padding-bottom: 60px;
@@ -616,7 +617,7 @@ text-decoration: none;
    display: flex;
    width: 206px;
    justify-content: space-between;
-   margin-top: 20px;
+   margin-top: 20px
  }
 .footer-icon-list {
    display: flex;
