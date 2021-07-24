@@ -14,9 +14,9 @@
      border-radius: 50%;
      fill: #fff;
      &:hover {
-         background: $color-link-title;
+         background: var(--color-link-title);
      }
      &:focus {
-        background: $color-link-title;
+        background: var(--color-link-title);
      }
     }
