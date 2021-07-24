@@ -13,9 +13,9 @@
      background-color: rgba(255, 255, 255, 0.1);
      border-radius: 50%;
      fill: #fff;
- }
- 
- .footer-icon-list:hover,
- .footer-icon-list:focus {
-    background: var(--color-link-title);
- }
+     &:hover {
+         background: var(--color-link-title);
+     }
+     &:focus {
+        background: var(--color-link-title);
+     }

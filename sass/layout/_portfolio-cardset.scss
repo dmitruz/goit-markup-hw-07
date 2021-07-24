@@ -23,7 +23,8 @@
      border-top: 0;
  }
  .flex-item:hover {
-    box-shadow:  1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgb(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.20);
+    box-shadow:  1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 
+    0px 2px 1px rgba(0, 0, 0, 0.20);
  }
  
  .img-text {
@@ -39,14 +40,11 @@
      margin-bottom: 4px;
      color: var(--title-color);
      margin-top: 0;
-     margin-bottom; 0;
+     margin-bottom: 0;
      padding-left: 0;
  }
  
-.flex-item:hover .overlay {
-    transform: translateY(0%);
-  }
- 
+
  
  .team-list-link-wraper {
     display: block;
