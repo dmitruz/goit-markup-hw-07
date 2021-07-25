@@ -2,14 +2,14 @@
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
-.flex-list {
+.poster__list {
 	padding: 0;
 	margin: 0;
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: -30px;
 	margin-top: -30px;
-	>.flex-item {
+	>.poster__item {
 		flex-basis: calc((100% - 270px) / 9);
 		margin-left: 30px;
 		margin-top: 30px;
@@ -23,12 +23,12 @@
 	border: 1px solid #EEE;
 	border-top: 0;
 }
-.flex-item {
+.poster__item {
 	&:hover {
 		box-shadow: 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.20);
 	}
 }
-.poster-name {
+.poster__name {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
@@ -46,7 +46,7 @@
 	position: relative;
 	overflow: hidden;
 }
-.poster-desc {
+.poster__desc {
 	font-size: 16px;
 	line-height: 30px;
 	letter-spacing: 0.03em;

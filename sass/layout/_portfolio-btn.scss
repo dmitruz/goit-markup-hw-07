@@ -21,12 +21,12 @@
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
-.btn-list {
+.main__btn-list {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 50px;
 }
-.padding-item {
+.main__item {
 	&:not(:last-child) {
 		margin-right: 8px;
 	}

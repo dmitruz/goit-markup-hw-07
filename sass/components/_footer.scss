@@ -10,7 +10,7 @@
 .footer-wrapper {
 	display: flex;
 }
-.footer-item-list {
+.footer__item-list {
 	&:not(:last-child) {
 		margin-bottom: 9px;
 	}
@@ -18,7 +18,7 @@
 .studio {
 	color: var(--main-title-color);
 }
-.footer-item {
+.footer__item {
 	&:not(:last-child) {
 		margin-bottom: 9px;
 	}
@@ -62,7 +62,7 @@
 .footer-soc-links {
 	margin-left: 70px;
 }
-.footer-title {
+.footer__title {
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 16px;
@@ -70,13 +70,13 @@
 	text-transform: uppercase;
 	color: var(--address-text-color);
 }
-.footer-list-icon {
+.footer__list-icon {
 	display: flex;
 	width: 206px;
 	justify-content: space-between;
 	margin-top: 20px;
 }
-.footer-icon-list {
+.footer__icon-list {
 	display: flex;
 	width: 44px;
 	height: 44px;
