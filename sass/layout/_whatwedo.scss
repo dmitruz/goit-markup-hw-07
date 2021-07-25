@@ -1,7 +1,7 @@
-.middle-section {
+.what-we-do-section {
 	padding-bottom: 94px;
 }
-.section-description {
+.what-we-do__section-description {
 	font-weight: bold;
 	font-size: 36px;
 	line-height: 42px;
@@ -14,7 +14,7 @@
 	display: flex;
 	justify-content: center;
 }
-.what-we-do-list {
+.what-we-do__list {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -35,7 +35,7 @@
 	width: 70px;
 	height: 70px;
 }
-.item {
+.what-we-do__item {
 	position: relative;
 }
 .service-text {
