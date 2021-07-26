@@ -22,6 +22,7 @@
 	padding-bottom: 94px;
 }
 .main__btn-list {
+	padding-top: 94px;
 	display: flex;
 	justify-content: center;
 	margin-bottom: 50px;
@@ -38,7 +39,7 @@
 	cursor: pointer;
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 1.62;
+	line-height: 1.65;
 	letter-spacing: 0.03em;
 	border-radius: 4x;
 	padding: 6px 22px;
@@ -56,20 +57,4 @@
 		color: var(--address-text-color);
 		cursor: pointer;
 	}
-}
-.btn-port-active {
-	font-family: var(--main-font);
-	font-style: normal;
-	background: var(--color-link-title);
-	color: var(--address-text-color);
-	text-align: center;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.6;
-	letter-spacing: 0.03em;
-	border-radius: 4px;
-	padding: 6px 22px;
-	border-collapse: collapse;
-	cursor: pointer;
 }

@@ -567,9 +567,10 @@ img {
 }
 
 .footer__title {
+  font-family: 'Roboto';
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--address-text-color);
@@ -606,10 +607,11 @@ img {
 }
 
 .footer__subscribe-title {
+  font-family: 'Roboto';
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.42;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--address-text-color);
@@ -659,9 +661,11 @@ img {
 }
 
 .header {
+  display: flex;
   border-bottom: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 24px;
+  height: 80px;
 }
 
 .header-port {
@@ -669,6 +673,10 @@ img {
   align-items: center;
 }
 
+/* {
+	display: flex;
+	align-items: center;
+}*/
 .main-nav {
   display: flex;
   align-items: center;
@@ -729,7 +737,7 @@ img {
   letter-spacing: 0.03em;
   line-height: 1.2em;
   text-decoration: none;
-  margin-right: 92px;
+  margin-right: 95px;
 }
 
 .logo-footer {
@@ -855,6 +863,8 @@ a {
 }
 
 .hero__text {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.65;
@@ -893,6 +903,8 @@ a {
 }
 
 .text-list {
+  font-family: Roboto;
+  font-style: normal;
   color: var(--title-color);
   line-height: 1.1;
   letter-spacing: 0.03em;
@@ -990,7 +1002,9 @@ a {
   padding-bottom: 94px;
 }
 
-.our-team__descriotion {
+.section-descriotion {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -1009,9 +1023,16 @@ a {
 
 .logo-set {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  padding-bottom: 30px;
+  justify-content: center;
 }
 
+/*{
+	display: flex;
+	justify-content: space-between;
+}*/
 .logo-cards:not(:last-child) {
   margin-right: 10px;
 }
@@ -1187,6 +1208,7 @@ a {
 }
 
 .main__btn-list {
+  padding-top: 94px;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -1203,7 +1225,7 @@ a {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.65;
   letter-spacing: 0.03em;
   border-radius: 4x;
   padding: 6px 22px;
@@ -1223,28 +1245,6 @@ a {
   background: var(--color-link-title);
   color: var(--address-text-color);
   cursor: pointer;
-}
-
-.btn-port-active {
-  font-family: var(--main-font);
-  font-style: normal;
-  background: var(--color-link-title);
-  color: var(--address-text-color);
-  text-align: center;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  border-radius: 4px;
-  padding: 6px 22px;
-  border-collapse: collapse;
-  cursor: pointer;
-}
-
-.poster-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .poster__list {
