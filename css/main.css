@@ -1208,7 +1208,6 @@ a {
 }
 
 .main__btn-list {
-  padding-top: 94px;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -1276,6 +1275,7 @@ a {
 }
 
 .poster__name {
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
